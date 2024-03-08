@@ -4,6 +4,8 @@
 
 replicaCount: 1
 
+fullnameOverride: domgym-api-test
+
 image:
   repository: robinmglsk/cl-dotnet-api
   pullPolicy: IfNotPresent
@@ -14,7 +16,7 @@ podLabels: {}
 podSecurityContext: {}
   # fsGroup: 2000
 
-securityContext: {}
+securityContext:
   capabilities:
     drop:
     - ALL
@@ -59,7 +61,7 @@ volumes:
     sizeLimit: 500Mi
 
 # Additional volumeMounts on the output Deployment definition.
-volumeMounts: []
+volumeMounts:
 - mountPath: /tmp
   name: tmp-volume
 

@@ -1,5 +1,5 @@
 using ErrorOr;
-using GymManagements.Domain.Subscriptions;
+using GymManagement.Domain.Subscriptions;
 using MediatR;
 
 namespace GymManagement.Application.Subscriptions.Queries.GetSubscription;

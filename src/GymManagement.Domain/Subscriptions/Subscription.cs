@@ -1,4 +1,4 @@
-namespace GymManagements.Domain.Subscriptions;
+namespace GymManagement.Domain.Subscriptions;
 
 public class Subscription
 {

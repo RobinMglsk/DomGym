@@ -1,5 +1,5 @@
 @host=http://localhost:5195
-@subscriptionId=428232b4-2a09-489d-b374-928c871d4046
+@subscriptionId=756B24E2-4A6E-4892-892C-72C8DC8A893F
 
 GET {{host}}/subscriptions/{{subscriptionId}}
 Content-Type: application/json
